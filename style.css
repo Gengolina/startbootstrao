@@ -286,9 +286,6 @@ body.overlay-active {
     width: 100%;
 }
 
-
-
-
 .glowny3
 {
     height: auto;
@@ -316,8 +313,6 @@ body.overlay-active {
     padding-top: 60px;
 }
 
-
-
 .stopka2
 {
     height: 80px;
@@ -329,17 +324,11 @@ body.overlay-active {
 
 }
 
-
-
-
-
 h2
 {
     font-size: 64px;
     
 }
-
-
 
 .svg-inline--fa
 {
@@ -360,7 +349,6 @@ h2
     background-color: #ffffff;
 }
 
-
 .divider-custom {
     padding-bottom: 28px;
     width: 100%;
@@ -368,10 +356,6 @@ h2
     justify-content: center;
     align-items: center;
 }
-
-
-
-
 
 #pod-text
 {
@@ -396,7 +380,6 @@ h2
 {
     height: 20px;
 }
-
 
 fr
 {
@@ -431,8 +414,6 @@ fr
     margin-left: -710px;
 }
 
-
-
 .btn
 {
     color: #ffffff;
@@ -447,7 +428,7 @@ fr
 #text1
 {
     width: 25%;
-    font-size: 20px;
+    font-size: 19px;
     text-align: left;
     position: left;
   
@@ -455,24 +436,12 @@ fr
 
 #text2
 {
-    font-size: 20px;
+    font-size: 19px;
     text-align: left;
     position: left;
     width: 25%;
     margin-left: 10px;  
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 #download:hover
 {
@@ -500,7 +469,6 @@ fr
    color: black;
    background-color: white;
 }
-
 
 .btn {
     --bs-btn-padding-x: 0.01rem;
@@ -570,8 +538,6 @@ fr
     align-items: center;
 }
 
-
-
 #portfolio
 {
     transform: translateY(-127px);
@@ -584,7 +550,7 @@ fr
 
 #contact
 {
-    transform: translateY(55px);
+    transform: translateY(-132px);
 }
 
 
@@ -613,12 +579,6 @@ fr
 .form:focus{
     outline: none;
 }
-
-
-
-
-
-
 
 .inputBox{
     position: relative;
@@ -667,27 +627,6 @@ fr
     font-size: 15px;
     transition: 0.2s;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* cyrillic-ext */
 @font-face {
@@ -762,4 +701,3 @@ fr
     src: url(https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
   }
-  
