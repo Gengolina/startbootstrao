@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      height: 1500px; /* Dodaj dodatkową wysokość, aby umożliwić przewijanie */
+    background-color: aquamarine;
+    }
+
+
+
+
+
+    #colordiv
+{
+    height: 70px;
+    width: 130px;
+    border-radius: 10px;
+    transition: 0.3s;
+    float: left;
+}
+
+#colordiv2
+{
+    height: 70px;
+    width: 130px;
+    border-radius: 10px;
+    transition: 0.3s;
+    float: left;
+}
+
+#colordiv.bcolor
+{
+    background-color: #1abc9c
+}
+
+
+
+
+
+
+
+    #banner {
+      background-color: #8ab2cc;
+      color: #fff;
+      padding: 20px;
+      height: 85px;
+      transition: height 0.3s ease; /* Dodaj animację przejścia tylko dla height */
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+    }
+
+    #content {
+      padding: 20px;
+      margin-top: 55px; /* Ustaw margines na górze równy początkowej wysokości banera */
+    }
+
+    #banner.shrinked {
+      height: 45px;
+    }
+  </style>
+</head>
+<body>
+  <div id="banner">
+    To jest baner
+    <div id="colordiv"></div><div id="colordiv2"></div><div id="colordiv3"></div>
+  </div>
+  
+  <div id="content">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel sapien ut turpis posuere condimentum. 
+      Maecenas hendrerit quam eu suscipit sagittis.
+    </p>
+    <!-- Dodaj więcej treści -->
+    <img src="cake.png">
+    <img src="cake.png">
+    <img src="cake.png">
+  </div>
+
+  <script>
+    window.onscroll = function() {
+      shrinkBanner();
+      BannerColor();
+      BannerColor2();
+    };
+
+    function shrinkBanner() {
+      var banner = document.getElementById('banner');
+
+      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        banner.classList.add('shrinked');
+      } else {
+        banner.classList.remove('shrinked');
+      }
+    }
+
+    function BannerColor() {
+    var banner = document.getElementById('colordiv');
+
+    if (document.body.scrollTop > 70 || document.documentElement.scrollTop < 570) {
+      banner.classList.add('bcolor');
+    } else {
+      banner.classList.remove('bcolor');
+    }
+
+  }
+ 
+  </script>
+</body>
+</html>
