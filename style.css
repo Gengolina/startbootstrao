@@ -23,7 +23,7 @@ body{
     color: white;
     padding-left: 303px;
     position: fixed;
-    z-index: 1000;
+    z-index: 10;
 }
 
 #baner.shrinked 
@@ -133,9 +133,6 @@ GA
     font-size: 22px;
 }
 
-
-
-
 .glowny2
 {
     margin-top: 55px;
@@ -191,15 +188,21 @@ OK
     flex-direction: column;
 }
 
+#wypel
+{
+    width: 100%;
+    height: auto;
+    background-color: #1abc9c;
+}
+
 #myImage
 {
     height: 290px;
-    width: auto;
     border-radius: 10px;
 }
 
-#overlay {
-    
+#overlay 
+{
     display: none;
     position: fixed;
     top: 0;
@@ -209,13 +212,14 @@ OK
     background-color: rgba(0, 0, 0, 0.5);
     justify-content: center;
     align-items: center;
-    z-index: 10;
     overflow-y: auto;
     opacity: 0; 
-  transition: opacity 0.3s ease; 
-  }
+    transition: opacity 0.3s ease; 
+    z-index: 100;
+}
 
-  #content {
+  #content 
+{
     margin-top: 48px;
     background-color: white;
     padding: 20px;
@@ -224,7 +228,7 @@ OK
     max-height: 95%;
     margin-top: 6rem;
     margin-bottom: 2rem;
-  }
+}
 
 #overlayImage
 {
@@ -307,7 +311,7 @@ body.overlay-active {
 
 .stopka
 {
-    height: 200px;
+    height: 213px;
     width: 100%;
     background-color: #2c3e50;
     padding-top: 60px;
@@ -315,12 +319,12 @@ body.overlay-active {
 
 .stopka2
 {
-    height: 80px;
-    background-color:rgb(33, 36, 46);
+    height: 72px;
+    background-color:#1a252f;
     width: 100%;
     color: white;
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
 
 }
 

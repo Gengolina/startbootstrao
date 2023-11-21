@@ -76,39 +76,3 @@ function openOverlay(text, imageName) {
   
   // Dodaj listener do zdarzenia scroll
   window.addEventListener('scroll', BannerColor);
-  
-
-
-
-/*
-  function BannerColor() {
-    var banner = document.getElementById('colordiv');
-
-    if (document.body.scrollTop > 1000 || document.documentElement.scrollTop < 1600) {
-      banner.classList.add('bcolor');
-    } else {
-      banner.classList.remove('bcolor');
-    }
-  }
-
-
-
-
-
-/*
-
-
-  window.onscroll = function() {
-    BannerColor();
-  };
-
-  function BannerColor() {
-    var banner = document.getElementById('li2');
-
-    if (document.body.scrollTop > 70 || document.documentElement.scrollTop > 70) {
-      banner.classList.add('bcolor');
-    } else {
-      banner.classList.remove('bcolor');
-    }
-  }
-  */
